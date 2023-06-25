@@ -203,7 +203,6 @@
   <ItemGroup>
     <Resource Include="Resources\1.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Model\DataBase.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

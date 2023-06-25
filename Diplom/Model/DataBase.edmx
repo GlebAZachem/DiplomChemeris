@@ -39,8 +39,8 @@
             <PropertyRef Name="IdZacaz" />
           </Key>
           <Property Name="IdZacaz" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="FIO" Type="nvarchar(max)" />
-          <Property Name="NameK" Type="nvarchar(max)" />
+          <Property Name="FIO" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="NameK" Type="nvarchar(max)" Nullable="false" />
           <Property Name="IdK" Type="int" />
           <Property Name="IdP" Type="int" />
           <Property Name="DataVz" Type="nvarchar(max)" Nullable="false" />
@@ -124,8 +124,8 @@
             <PropertyRef Name="IdZacaz" />
           </Key>
           <Property Name="IdZacaz" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="FIO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="NameK" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FIO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NameK" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="IdK" Type="Int32" />
           <Property Name="IdP" Type="Int32" />
           <Property Name="DataVz" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />

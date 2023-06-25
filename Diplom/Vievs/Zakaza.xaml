@@ -18,7 +18,7 @@
                 <DataGridTextColumn Header="ID аренды" Binding="{Binding IdZacaz}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="ФИО" Binding="{Binding FIO}" Width="150"></DataGridTextColumn>
                 <DataGridTextColumn Header="Название книги" Binding="{Binding NameK}" Width="150"></DataGridTextColumn>
-                <DataGridTextColumn Header="Дата возврата" Binding="{Binding}" Width="150"></DataGridTextColumn>
+                <DataGridTextColumn Header="Дата возврата" Binding="{Binding DataVz}" Width="150"></DataGridTextColumn>
 
                 <DataGridTemplateColumn Width="auto">
                     <DataGridTemplateColumn.CellTemplate>
